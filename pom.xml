@@ -167,4 +167,11 @@
         </plugins>
     </build>
 
+    <developers>
+        <developer>
+            <name>Everton C. C. B. Thomaz</name>
+            <email>everton.thomaz@gmail.com</email>
+        </developer>
+    </developers>
+
 </project>
