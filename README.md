@@ -1,2 +1,2 @@
-Autor: Everton C. C. B. Thomaz
-Exercício ref. a branch.
+Autor: Everton Colombo Cosin Bianchi Thomaz
+Descrição sobre você
