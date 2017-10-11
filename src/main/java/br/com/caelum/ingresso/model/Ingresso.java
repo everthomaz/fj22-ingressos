@@ -52,4 +52,13 @@ public class Ingresso {
 	public Lugar getLugar() {
 		return lugar;
 	}
+
+	public TipoDeIngresso getTipoDeIngresso() {
+		return tipoDeIngresso;
+	}
+
+	public void setTipoDeIngresso(TipoDeIngresso tipoDeIngresso) {
+		this.tipoDeIngresso = tipoDeIngresso;
+	}
+	
 }
