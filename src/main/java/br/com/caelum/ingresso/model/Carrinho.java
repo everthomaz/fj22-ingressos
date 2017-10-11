@@ -21,6 +21,10 @@ public class Carrinho {
 		return ingressos.stream().map(Ingresso::getLugar).anyMatch(l -> l.equals(lugar));
 	}
 	
+	public Compra toCompra() {
+		return new Compra(ingressos);
+	}
+	
 	public BigDecimal getTotal() {
 		return ingressos.stream().map(Ingresso::getPreco).reduce(BigDecimal::add).orElse(BigDecimal.ZERO);
 	}
