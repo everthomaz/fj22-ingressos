@@ -8,7 +8,7 @@ public class DetalhesDoFilme {
 	private String titulo;
 	
 	@JsonProperty("Year")
-	private Integer ano;
+	private String ano;
 	
 	@JsonProperty("Poster")
 	private String imagem;
@@ -36,11 +36,11 @@ public class DetalhesDoFilme {
 		this.titulo = titulo;
 	}
 
-	public Integer getAno() {
+	public String getAno() {
 		return ano;
 	}
 
-	public void setAno(Integer ano) {
+	public void setAno(String ano) {
 		this.ano = ano;
 	}
 
