@@ -26,6 +26,9 @@ public class CompraController {
 	private LugarDao lugarDao;
 	
 	@Autowired
+	private CompraDao compraDao;
+	
+	@Autowired
 	private Carrinho carrinho;
 	
 	@PostMapping("/compra/ingressos")
